@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+using Microsoft.EntityFrameworkCore;
+using OrderKaBA.DatabaseConnection;
+
+>>>>>>> 2200c58488b3f1d8e1b0d916555c9009ba877a81
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +13,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+<<<<<<< HEAD
+=======
+// Configure PostgreSQL connection
+builder.Services.AddDbContext<OrderKaBaDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add AutoMapper
+builder.Services.AddAutoMapper(typeof(Program));
+
+>>>>>>> 2200c58488b3f1d8e1b0d916555c9009ba877a81
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

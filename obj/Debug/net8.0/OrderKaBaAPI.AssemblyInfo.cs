@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderKaBaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7d96048f2fd65940739a6418064e0223fb04e75")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderKaBaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderKaBaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
