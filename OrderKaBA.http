@@ -1,0 +1,6 @@
+@OrderKaBA_HostAddress = http://localhost:5001
+
+GET {{OrderKaBA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
