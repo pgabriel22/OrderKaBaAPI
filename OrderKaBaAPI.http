@@ -1,6 +1,0 @@
-@OrderKaBaAPI_HostAddress = http://localhost:5058
-
-GET {{OrderKaBaAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
