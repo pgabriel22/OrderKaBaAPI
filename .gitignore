@@ -1,14 +1,10 @@
-# .NET
+## .NET
 bin/
 obj/
 
-# Visual Studio
-.vs/
+## User-specific files
 *.user
+*.suo
 
-# App settings (secrets)
-appsettings.json
-
-# OS
-Thumbs.db
-.DS_Store
+## App settings
+appsettings.Development.json
