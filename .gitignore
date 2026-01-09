@@ -8,3 +8,7 @@ obj/
 
 ## App settings
 appsettings.Development.json
+
+## Visual Studio
+.vs/
+*.user
